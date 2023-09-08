@@ -1,10 +1,10 @@
 import React from "react";
 
-type Error = {
+type IError = {
   error: string;
 };
 
-function Error({ error }: Error) {
+function Error({ error }: IError) {
   return (
     <div>
       <h2>{error.trim()}</h2>
